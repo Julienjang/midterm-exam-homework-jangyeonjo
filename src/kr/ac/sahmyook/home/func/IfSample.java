@@ -29,7 +29,8 @@ public class IfSample {
         System.out.println("입력한 숫자 중 가장 작은 수는 " + min + "입니다.");
     }
 
-    public void threeMaxMin() {System.out.print("첫 번째 숫자를 입력하세요 : ");
+    public void threeMaxMin() {
+        System.out.print("첫 번째 숫자를 입력하세요 : ");
         int num1 = sc.nextInt();
         System.out.print("두 번째 숫자를 입력하세요 : ");
         int num2 = sc.nextInt();
